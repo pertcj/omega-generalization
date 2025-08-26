@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omega_generalization"
+version = "0.1.0"
+description = "Neural Network Generalization to Omega-Regular Languages"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "jax",
+    "jaxlib",
+    "dm-haiku",
+    "chex",
+    "tensorboardX",
+    "optax",
+    "tqdm",
+]
+
+[tool.setuptools]
+packages = ["omega_generalization"]
