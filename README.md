@@ -58,3 +58,7 @@ The script will output training progress and final evaluation results. The in-di
 
 # Code Reference
 This repository builds upon the implementation from [https://github.com/google-deepmind/neural_networks_chomsky_hierarchy](https://github.com/google-deepmind/neural_networks_chomsky_hierarchy)
+
+# License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
